@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Api", "1 - Api", "{E4B28B28-09F8-4666-AB0A-1E17384010B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Services", "2 - Services", "{62E690F5-D403-48F0-8545-41C43F7E986F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Data", "3 - Data", "{80986250-D520-4A65-B560-E4D342661BF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KanbanNET.Services", "src\services\KanbanNET.Services\KanbanNET.Services.csproj", "{8AC12AAD-FAF0-483B-B3B3-5B698100F2FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AC12AAD-FAF0-483B-B3B3-5B698100F2FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AC12AAD-FAF0-483B-B3B3-5B698100F2FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AC12AAD-FAF0-483B-B3B3-5B698100F2FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AC12AAD-FAF0-483B-B3B3-5B698100F2FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8AC12AAD-FAF0-483B-B3B3-5B698100F2FF} = {62E690F5-D403-48F0-8545-41C43F7E986F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B163841-9E61-4704-983B-56977C7DB935}
+	EndGlobalSection
+EndGlobal
