@@ -9,16 +9,12 @@ namespace KanbanNET.Services.Entities
 {
     public class CardLista
     {
-        public CardLista(Guid id, string titulo, short ordem)
-        {
-            Id = id;
-            Titulo = titulo;
-            Ordem = ordem;
-        }
 
-        public Guid Id { get; set; }
-        public string Titulo { get; set; } = null!;
-        public short Ordem { get; set; }
+        public Guid CardListaId { get; private set; }
+        public string Titulo { get; private set; } = null!;
+        public short Ordem { get; private set; }
+        public Guid BoardId { get; private set; }
+
         public ICollection<Card> Cards { get; set; } = new List<Card>();
     }
 }
