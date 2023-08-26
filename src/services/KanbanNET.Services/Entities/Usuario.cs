@@ -5,7 +5,11 @@
 
         public Usuario(Guid id, string nome, string email, string apelido, DateTime dataNascimento)
         {
-            
+            Id = id;
+            Nome = nome;
+            Email = email;
+            Apelido = apelido;
+            DataNascimento = dataNascimento;
         }
 
         public Guid Id { get; init; }
