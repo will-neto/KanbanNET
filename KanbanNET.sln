@@ -11,9 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Data", "3 - Data", "{80
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KanbanNET.Services", "src\services\KanbanNET.Services\KanbanNET.Services.csproj", "{8AC12AAD-FAF0-483B-B3B3-5B698100F2FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KanbanNET.Data", "src\data\KanbanNET.Data\KanbanNET.Data.csproj", "{13258C33-7926-4B96-B83C-7D964EA11896}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KanbanNET.Data", "src\data\KanbanNET.Data\KanbanNET.Data.csproj", "{13258C33-7926-4B96-B83C-7D964EA11896}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KanbanNet.API", "src\api\KanbanNet.API\KanbanNet.API.csproj", "{76ABA660-CF26-49F6-B369-36F2D8649428}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KanbanNet.API", "src\api\KanbanNet.API\KanbanNet.API.csproj", "{76ABA660-CF26-49F6-B369-36F2D8649428}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
