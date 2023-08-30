@@ -14,5 +14,6 @@ namespace KanbanNET.Services.Entities
         public bool Ativo { get; private set; }
         public ICollection<Usuario> Usuarios { get; private set; } = new List<Usuario>();
         public ICollection<CardLista> CardListas { get; private set; } = new List<CardLista>();
+        public ICollection<BoardUsuario> BoardsUsuarios { get; private set; } = new List<BoardUsuario>();
     }
 }

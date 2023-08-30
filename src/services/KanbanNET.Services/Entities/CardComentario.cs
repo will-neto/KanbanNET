@@ -13,8 +13,8 @@ namespace KanbanNET.Services.Entities
         public DateTime DataCriacao { get; private set; }
 
         public Guid CardId { get; private set; }
+        public Card Card { get; set; } = null!;
         public Guid UsuarioId { get; private set; }
-
         public Usuario Usuario { get; set; } = null!;
     }
 }

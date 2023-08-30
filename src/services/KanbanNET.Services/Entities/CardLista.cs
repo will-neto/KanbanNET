@@ -14,7 +14,7 @@ namespace KanbanNET.Services.Entities
         public string Titulo { get; private set; } = null!;
         public short Ordem { get; private set; }
         public Guid BoardId { get; private set; }
-
+        public Board Board { get; set; } = null!;
         public ICollection<Card> Cards { get; set; } = new List<Card>();
     }
 }
